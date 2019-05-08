@@ -10,6 +10,7 @@ let p2Score = 0;
 let gameOver = false;
 var winningScore = 5;
 
+
 p1Button.addEventListener("click", function(){
     if (!gameOver){
         p1Score++;
