@@ -1,23 +1,75 @@
 body{
     background-color:#262626;
     font-family: 'Sorts Mill Goudy', serif;
+    margin: 0;
 }
 
 h1{
     color:white;
     text-align: center;
+    line-height: 1.3; 
+    padding: 30px 0;
+    background: #b37700;
+    margin: 0;
 }
-
+#colorDisplay{
+    text-transform: uppercase;
+    font-size: 2.7rem;
+}
 .square{
     width: 30%;
     background: purple;
     padding-bottom: 30%;
     float: left;
     margin: 1.6%;
+    border-radius: 50%;
+    transition: background 0.6s;
+    --webkit-transition: background 0.6s;
+    --moz-transition: background 0.6s;
 }
 
 #container{
     max-width: 600px;
-    margin: 0 auto;
+    margin: 20px auto;
 }
 
+#stripe{
+    background-color: white;
+    font-family: 'Sorts Mill Goudy', serif;
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+    
+
+}
+
+button{
+    font-family: 'Sorts Mill Goudy', serif;
+    font-size: inherit; 
+    border: none;
+    background: none;  
+    height: 100%;
+    font-weight: 700;
+    color: #b37700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 10px 5px;
+    outline: none;
+    transition: all 0.4s;
+    --webkit-transition: all 0.4s;
+    --moz-transition: all 0.4s;
+}
+
+button:hover{
+    color: white;
+    background: #cc8800;
+
+}
+#message{
+    display: inline-block;
+    width: 20%;
+}
+.selected{
+    color: white;
+    background: #cc8800;
+}
